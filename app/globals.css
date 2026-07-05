@@ -1074,11 +1074,45 @@ table.collab td.who {
   height: 18px;
 }
 
+/* prototype slide */
+.proto-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.proto-figure {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #f3efe4;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.4);
+  max-width: 100%;
+  display: inline-block;
+}
+.proto-figure img {
+  max-width: 100%;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.proto-caption {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--concrete-300);
+  margin-top: 0.9rem;
+  max-width: 80ch;
+  text-align: center;
+}
+
 @media (max-width: 760px) {
   .content-row,
   .solution-grid,
   .title-wrap,
-  .stage-grid {
+  .stage-grid,
+  .proto-row {
     flex-direction: column;
   }
   .dot-rail {

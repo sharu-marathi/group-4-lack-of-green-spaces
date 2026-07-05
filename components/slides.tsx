@@ -377,7 +377,35 @@ export const SLIDES: SlideDef[] = [
     ),
   },
 
-  // 9 — COLLABORATION OVERVIEW
+  // 9 — PROTOTYPE (image)
+  {
+    section: 'Prototype',
+    tone: 'growth',
+    content: (
+      <>
+        <div className="eyebrow">Working Prototype</div>
+        <h2 className="display" style={{ marginBottom: '0.8rem' }}>
+          Modular Biodegradable Green Roof Tile — Prototype
+        </h2>
+        <div className="proto-single">
+          <figure className="proto-figure">
+            <img
+              src="/prototype-diagram.png"
+              alt="Annotated diagram of the modular biodegradable green roof tile prototype, showing the plant cover, growing medium and soil moisture sensor, the side-view layer structure, the water container to mini pump to Arduino irrigation and control system, the experiment setup comparing a green roof tile against a bare concrete control tile with an infrared thermometer, a top view, a five-step how-it-works panel, and a materials list."
+            />
+          </figure>
+          <div className="proto-caption">
+            A small, lightweight tile holding soil, plants and moisture to reduce concrete
+            surface temperature. The green tile is tested against a bare concrete control
+            tile using an infrared thermometer, with a soil-moisture sensor and Arduino
+            driving automated irrigation.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 10 — COLLABORATION OVERVIEW
   {
     section: 'Collaboration',
     tone: 'sky',
