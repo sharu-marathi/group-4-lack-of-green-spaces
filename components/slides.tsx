@@ -405,7 +405,103 @@ export const SLIDES: SlideDef[] = [
     ),
   },
 
-  // 11 — BIOLOGY INDIVIDUAL
+  // 10 — RESULTS: TEMPERATURE DATA
+  {
+    section: 'Results',
+    tone: 'leaf',
+    content: (
+      <>
+        <div className="eyebrow">Quantitative Results</div>
+        <h2 className="display">Surface temperature: Bare concrete vs. green tile</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/tile-comparison.png"
+              alt="Bar chart showing bare concrete at 52°C and biodegradable green roof tile at 41°C"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Our prototype achieved an 11°C temperature reduction, confirming that
+            biodegradable green roof tiles effectively cool concrete surfaces.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 11 — RESULTS: DAILY TEMPERATURE CURVE
+  {
+    section: 'Results',
+    tone: 'sky',
+    content: (
+      <>
+        <div className="eyebrow">Daily Temperature Profile</div>
+        <h2 className="display">How green tiles stay cooler throughout the day</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/daily-curve.png"
+              alt="Line graph showing conventional concrete roof reaching 60°C at peak while green roof stays around 35°C from 8 AM to 6 PM"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The green tile remains consistently cooler across all daylight hours due to
+            shading and evapotranspiration, with maximum cooling effect during peak sun.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 12 — RESULTS: AUTOMATED WATERING SYSTEM
+  {
+    section: 'Results',
+    tone: 'moss',
+    content: (
+      <>
+        <div className="eyebrow">System Performance</div>
+        <h2 className="display">Automated irrigation: Soil moisture control</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/watering-system.png"
+              alt="Graph showing soil moisture percentage vs time with Arduino pump control, showing a trigger threshold at 30%, pump activation, rapid watering increase, and automatic shutoff at target"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The Arduino-controlled system maintains plant health by automatically triggering
+            irrigation when moisture drops below 30%, demonstrating reliable automation.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 13 — RESULTS: CHEMISTRY & SUBSTRATE
+  {
+    section: 'Results',
+    tone: 'concrete',
+    content: (
+      <>
+        <div className="eyebrow">Material Science</div>
+        <h2 className="display">Chemical optimization of the growing substrate</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/chemistry.png"
+              alt="Four panels showing biodegradable matrix characterization, growing medium pH and nutrient availability, water retention capacity kinetics, and the ideal substrate mix of 30% coconut coir, 30% soil, and 40% compost"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The optimized substrate mix (40% compost, 30% soil, 30% coir) maximizes water
+            retention, nutrient availability, and biodegradability for long-term performance.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 14 — BIOLOGY INDIVIDUAL
   {
     section: 'Individual Research',
     tone: 'sky',
