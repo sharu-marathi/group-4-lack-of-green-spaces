@@ -501,7 +501,80 @@ export const SLIDES: SlideDef[] = [
     ),
   },
 
-  // 14 — BIOLOGY INDIVIDUAL
+  // 14 — RESULTS: HOURLY TEMPERATURE TRACKING
+  {
+    section: 'Results',
+    tone: 'concrete',
+    content: (
+      <>
+        <div className="eyebrow">Hourly Monitoring</div>
+        <h2 className="display">Concrete surface temperature throughout the day</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/temp-chart.png"
+              alt="Bar chart showing hourly temperature measurements from 10:00 to 15:00, with bare concrete reaching 50°C at peak and green tile concrete staying around 38°C"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Hour-by-hour measurements reveal consistent cooling across peak sunlight hours,
+            with the green tile reducing peak temperature by 12–14°C.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 15 — RESULTS: EPA COMPARISON DATA
+  {
+    section: 'Results',
+    tone: 'leaf',
+    content: (
+      <>
+        <div className="eyebrow">EPA Research Evidence</div>
+        <h2 className="display">Average surface temperature: Conventional roof vs green roof</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/epa-comparison.png"
+              alt="Bar chart comparing conventional concrete roof at approximately 70°C to green roof at approximately 38°C based on U.S. EPA data"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Real-world EPA data confirms that green roofs can reduce roof surface
+            temperatures by up to 32°C compared to conventional concrete.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 16 — RESULTS: GREEN ROOF IMPACT STATISTICS
+  {
+    section: 'Results',
+    tone: 'sky',
+    content: (
+      <>
+        <div className="eyebrow">Global Impact Evidence</div>
+        <h2 className="display">Green roofs: Real-life statistics and impact</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/epa-infographic.png"
+              alt="Comprehensive infographic from EPA and WHO showing green roof benefits: roof surface temperature reduction, nearby air temperature reduction, daytime mean roof-media temperature reduction, green spaces health benefits, stormwater management capabilities, and energy savings statistics"
+            />
+          </figure>
+          <div className="data-key-finding">
+            EPA and WHO evidence shows green roofs reduce surface temperatures by 50°F,
+            improve air quality, manage stormwater, reduce energy use by 30%, and improve
+            public health and wellbeing.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 17 — BIOLOGY INDIVIDUAL
   {
     section: 'Individual Research',
     tone: 'sky',
