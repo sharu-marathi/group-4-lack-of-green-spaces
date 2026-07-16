@@ -405,176 +405,7 @@ export const SLIDES: SlideDef[] = [
     ),
   },
 
-  // 10 — RESULTS: TEMPERATURE DATA
-  {
-    section: 'Results',
-    tone: 'leaf',
-    content: (
-      <>
-        <div className="eyebrow">Quantitative Results</div>
-        <h2 className="display">Surface temperature: Bare concrete vs. green tile</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/tile-comparison.png"
-              alt="Bar chart showing bare concrete at 52°C and biodegradable green roof tile at 41°C"
-            />
-          </figure>
-          <div className="data-key-finding">
-            Our prototype achieved an 11°C temperature reduction, confirming that
-            biodegradable green roof tiles effectively cool concrete surfaces.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 11 — RESULTS: DAILY TEMPERATURE CURVE
-  {
-    section: 'Results',
-    tone: 'sky',
-    content: (
-      <>
-        <div className="eyebrow">Daily Temperature Profile</div>
-        <h2 className="display">How green tiles stay cooler throughout the day</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/daily-curve.png"
-              alt="Line graph showing conventional concrete roof reaching 60°C at peak while green roof stays around 35°C from 8 AM to 6 PM"
-            />
-          </figure>
-          <div className="data-key-finding">
-            The green tile remains consistently cooler across all daylight hours due to
-            shading and evapotranspiration, with maximum cooling effect during peak sun.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 12 — RESULTS: AUTOMATED WATERING SYSTEM
-  {
-    section: 'Results',
-    tone: 'moss',
-    content: (
-      <>
-        <div className="eyebrow">System Performance</div>
-        <h2 className="display">Automated irrigation: Soil moisture control</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/watering-system.png"
-              alt="Graph showing soil moisture percentage vs time with Arduino pump control, showing a trigger threshold at 30%, pump activation, rapid watering increase, and automatic shutoff at target"
-            />
-          </figure>
-          <div className="data-key-finding">
-            The Arduino-controlled system maintains plant health by automatically triggering
-            irrigation when moisture drops below 30%, demonstrating reliable automation.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 13 — RESULTS: CHEMISTRY & SUBSTRATE
-  {
-    section: 'Results',
-    tone: 'concrete',
-    content: (
-      <>
-        <div className="eyebrow">Material Science</div>
-        <h2 className="display">Chemical optimization of the growing substrate</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/chemistry.png"
-              alt="Four panels showing biodegradable matrix characterization, growing medium pH and nutrient availability, water retention capacity kinetics, and the ideal substrate mix of 30% coconut coir, 30% soil, and 40% compost"
-            />
-          </figure>
-          <div className="data-key-finding">
-            The optimized substrate mix (40% compost, 30% soil, 30% coir) maximizes water
-            retention, nutrient availability, and biodegradability for long-term performance.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 14 — RESULTS: HOURLY TEMPERATURE TRACKING
-  {
-    section: 'Results',
-    tone: 'concrete',
-    content: (
-      <>
-        <div className="eyebrow">Hourly Monitoring</div>
-        <h2 className="display">Concrete surface temperature throughout the day</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/temp-chart.png"
-              alt="Bar chart showing hourly temperature measurements from 10:00 to 15:00, with bare concrete reaching 50°C at peak and green tile concrete staying around 38°C"
-            />
-          </figure>
-          <div className="data-key-finding">
-            Hour-by-hour measurements reveal consistent cooling across peak sunlight hours,
-            with the green tile reducing peak temperature by 12–14°C.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 15 — RESULTS: EPA COMPARISON DATA
-  {
-    section: 'Results',
-    tone: 'leaf',
-    content: (
-      <>
-        <div className="eyebrow">EPA Research Evidence</div>
-        <h2 className="display">Average surface temperature: Conventional roof vs green roof</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/epa-comparison.png"
-              alt="Bar chart comparing conventional concrete roof at approximately 70°C to green roof at approximately 38°C based on U.S. EPA data"
-            />
-          </figure>
-          <div className="data-key-finding">
-            Real-world EPA data confirms that green roofs can reduce roof surface
-            temperatures by up to 32°C compared to conventional concrete.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 16 — RESULTS: GREEN ROOF IMPACT STATISTICS
-  {
-    section: 'Results',
-    tone: 'sky',
-    content: (
-      <>
-        <div className="eyebrow">Global Impact Evidence</div>
-        <h2 className="display">Green roofs: Real-life statistics and impact</h2>
-        <div className="data-main">
-          <figure className="data-figure">
-            <img
-              src="/epa-infographic.png"
-              alt="Comprehensive infographic from EPA and WHO showing green roof benefits: roof surface temperature reduction, nearby air temperature reduction, daytime mean roof-media temperature reduction, green spaces health benefits, stormwater management capabilities, and energy savings statistics"
-            />
-          </figure>
-          <div className="data-key-finding">
-            EPA and WHO evidence shows green roofs reduce surface temperatures by 50°F,
-            improve air quality, manage stormwater, reduce energy use by 30%, and improve
-            public health and wellbeing.
-          </div>
-        </div>
-      </>
-    ),
-  },
-
-  // 17 — BIOLOGY INDIVIDUAL
+  // 10 — BIOLOGY INDIVIDUAL
   {
     section: 'Individual Research',
     tone: 'sky',
@@ -1027,7 +858,176 @@ export const SLIDES: SlideDef[] = [
     ),
   },
 
-  // 21 — CONCLUSION
+  // 16 — RESULTS: TEMPERATURE DATA
+  {
+    section: 'Results',
+    tone: 'leaf',
+    content: (
+      <>
+        <div className="eyebrow">Quantitative Results</div>
+        <h2 className="display">Surface temperature: Bare concrete vs. green tile</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/tile-comparison.png"
+              alt="Bar chart showing bare concrete at 52°C and biodegradable green roof tile at 41°C"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Our prototype achieved an 11°C temperature reduction, confirming that
+            biodegradable green roof tiles effectively cool concrete surfaces.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 17 — RESULTS: DAILY TEMPERATURE CURVE
+  {
+    section: 'Results',
+    tone: 'sky',
+    content: (
+      <>
+        <div className="eyebrow">Daily Temperature Profile</div>
+        <h2 className="display">How green tiles stay cooler throughout the day</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/daily-curve.png"
+              alt="Line graph showing conventional concrete roof reaching 60°C at peak while green roof stays around 35°C from 8 AM to 6 PM"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The green tile remains consistently cooler across all daylight hours due to
+            shading and evapotranspiration, with maximum cooling effect during peak sun.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 18 — RESULTS: AUTOMATED WATERING SYSTEM
+  {
+    section: 'Results',
+    tone: 'moss',
+    content: (
+      <>
+        <div className="eyebrow">System Performance</div>
+        <h2 className="display">Automated irrigation: Soil moisture control</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/watering-system.png"
+              alt="Graph showing soil moisture percentage vs time with Arduino pump control, showing a trigger threshold at 30%, pump activation, rapid watering increase, and automatic shutoff at target"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The Arduino-controlled system maintains plant health by automatically triggering
+            irrigation when moisture drops below 30%, demonstrating reliable automation.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 19 — RESULTS: CHEMISTRY & SUBSTRATE
+  {
+    section: 'Results',
+    tone: 'concrete',
+    content: (
+      <>
+        <div className="eyebrow">Material Science</div>
+        <h2 className="display">Chemical optimization of the growing substrate</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/chemistry.png"
+              alt="Four panels showing biodegradable matrix characterization, growing medium pH and nutrient availability, water retention capacity kinetics, and the ideal substrate mix of 30% coconut coir, 30% soil, and 40% compost"
+            />
+          </figure>
+          <div className="data-key-finding">
+            The optimized substrate mix (40% compost, 30% soil, 30% coir) maximizes water
+            retention, nutrient availability, and biodegradability for long-term performance.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 20 — RESULTS: HOURLY TEMPERATURE TRACKING
+  {
+    section: 'Results',
+    tone: 'concrete',
+    content: (
+      <>
+        <div className="eyebrow">Hourly Monitoring</div>
+        <h2 className="display">Concrete surface temperature throughout the day</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/temp-chart.png"
+              alt="Bar chart showing hourly temperature measurements from 10:00 to 15:00, with bare concrete reaching 50°C at peak and green tile concrete staying around 38°C"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Hour-by-hour measurements reveal consistent cooling across peak sunlight hours,
+            with the green tile reducing peak temperature by 12–14°C.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 21 — RESULTS: EPA COMPARISON DATA
+  {
+    section: 'Results',
+    tone: 'leaf',
+    content: (
+      <>
+        <div className="eyebrow">EPA Research Evidence</div>
+        <h2 className="display">Average surface temperature: Conventional roof vs green roof</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/epa-comparison.png"
+              alt="Bar chart comparing conventional concrete roof at approximately 70°C to green roof at approximately 38°C based on U.S. EPA data"
+            />
+          </figure>
+          <div className="data-key-finding">
+            Real-world EPA data confirms that green roofs can reduce roof surface
+            temperatures by up to 32°C compared to conventional concrete.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 22 — RESULTS: GREEN ROOF IMPACT STATISTICS
+  {
+    section: 'Results',
+    tone: 'sky',
+    content: (
+      <>
+        <div className="eyebrow">Global Impact Evidence</div>
+        <h2 className="display">Green roofs: Real-life statistics and impact</h2>
+        <div className="data-main">
+          <figure className="data-figure">
+            <img
+              src="/epa-infographic.png"
+              alt="Comprehensive infographic from EPA and WHO showing green roof benefits: roof surface temperature reduction, nearby air temperature reduction, daytime mean roof-media temperature reduction, green spaces health benefits, stormwater management capabilities, and energy savings statistics"
+            />
+          </figure>
+          <div className="data-key-finding">
+            EPA and WHO evidence shows green roofs reduce surface temperatures by 50°F,
+            improve air quality, manage stormwater, reduce energy use by 30%, and improve
+            public health and wellbeing.
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  // 23 — CONCLUSION
   {
     section: 'Conclusion',
     tone: 'forest',
