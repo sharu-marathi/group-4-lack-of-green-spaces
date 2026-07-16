@@ -54,7 +54,7 @@ export const SLIDES: SlideDef[] = [
             temperature of concrete surfaces within a selected urban microclimate?
           </div>
           <div className="members">
-            <em>Group Members —</em> Prasanthi Muthusamy Parthiban · Yashvi Pratap ·
+            <em>Group Members —</em> Prasanthi Muthusamy Parthiban · Yashvi Prathap ·
             Mohit Chandramohan · Sharany Ajit Nikam · Manna J
           </div>
         </div>
@@ -364,7 +364,7 @@ export const SLIDES: SlideDef[] = [
             <div className="eyebrow" style={{ margin: 0 }}>
               Individual Research · ESS
             </div>
-            <div className="person-name">Prasanthi Muthusamy Parthiban &amp; Yashvi Pratap</div>
+            <div className="person-name">Prasanthi Muthusamy Parthiban &amp; Yashvi Prathap</div>
           </div>
         </div>
         <div className="subj-question">
