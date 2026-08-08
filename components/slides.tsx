@@ -1043,4 +1043,57 @@ export const SLIDES: SlideDef[] = [
       </>
     ),
   },
+
+  // 23 — SMART FARM DASHBOARD
+  {
+    section: 'Data Visualisation',
+    tone: 'dashboard',
+    content: (
+      <div className="dashboard-slide">
+        <div className="eyebrow">Data Visualisation · Smart Monitoring</div>
+        <h2 className="display">From prototype to measurable environmental impact</h2>
+        <figure className="dashboard-image-wrap">
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-08-08%20at%2010.17.56%E2%80%AFAM-5gzZOayNMetAW0HygCYFuI1LgejFWf.png"
+            alt="AGRI-SENSE smart farm dashboard with temperature and soil moisture trends, alerts, field overview, forecast, and irrigation status"
+          />
+          <figcaption>AGRI•SENSE dashboard concept for real-time field monitoring.</figcaption>
+        </figure>
+      </div>
+    ),
+  },
+
+  // 24 — GRAPH FOCUS
+  {
+    section: 'Data Visualisation',
+    tone: 'dashboard',
+    content: (
+      <div className="graph-focus-slide">
+        <div className="eyebrow">Data Visualisation · Graph Focus</div>
+        <h2 className="display">Reading the signals behind the system</h2>
+        <div className="graph-focus-grid">
+          <div className="graph-card temperature-card">
+            <div className="graph-card-head"><span>Temperature trend</span><b>7 DAYS</b></div>
+            <div className="graph-metric"><strong>24.6°C</strong><span>Average surface temperature</span></div>
+            <svg className="sparkline" viewBox="0 0 520 150" role="img" aria-label="Temperature trend rises and falls across seven days">
+              <path className="grid-line" d="M0 30H520M0 75H520M0 120H520" />
+              <path className="temp-line" d="M0 118 C35 106 42 50 75 58 S115 110 145 82 S185 28 215 52 S252 115 280 76 S320 35 350 66 S390 116 420 73 S465 38 520 83" />
+            </svg>
+            <div className="graph-axis"><span>May 16</span><span>May 19</span><span>May 22</span></div>
+          </div>
+          <div className="graph-card moisture-card">
+            <div className="graph-card-head"><span>Soil moisture trend</span><b>4 ZONES</b></div>
+            <div className="moisture-rows">
+              <div><span>Zone 1</span><i style={{ width: '76%' }}><em /></i><strong>38%</strong></div>
+              <div><span>Zone 2</span><i style={{ width: '56%' }}><em /></i><strong>28%</strong></div>
+              <div><span>Zone 3</span><i style={{ width: '36%' }}><em /></i><strong>18%</strong></div>
+              <div><span>Zone 4</span><i style={{ width: '64%' }}><em /></i><strong>32%</strong></div>
+            </div>
+            <div className="threshold-note"><span /> Moisture threshold: 20% · Zone 3 needs attention</div>
+          </div>
+        </div>
+        <div className="insight-strip"><strong>Key insight</strong><span>Continuous sensing connects heat reduction, soil health, and automated irrigation in one feedback loop.</span></div>
+      </div>
+    ),
+  },
 ]

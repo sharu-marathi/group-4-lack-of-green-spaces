@@ -1107,6 +1107,42 @@ table.collab td.who {
   text-align: center;
 }
 
+.slide[data-tone='dashboard'] {
+  background: linear-gradient(145deg, #07131d, #102e35 62%, #183f3c);
+}
+.dashboard-slide, .graph-focus-slide { width: 100%; }
+.dashboard-slide .display, .graph-focus-slide .display { max-width: 25ch; }
+.dashboard-image-wrap {
+  margin: 1.2rem 0 0;
+  border: 1px solid rgba(133, 214, 187, 0.32);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #07131d;
+  box-shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.38);
+}
+.dashboard-image-wrap img { display: block; width: 100%; max-height: 54vh; object-fit: cover; object-position: center; }
+.dashboard-image-wrap figcaption { padding: 0.6rem 0.9rem; color: #a8c8c0; font: 0.7rem var(--font-mono-f); letter-spacing: 0.06em; }
+.graph-focus-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 1rem; margin-top: 1.3rem; }
+.graph-card { padding: 1rem; border: 1px solid rgba(133, 214, 187, 0.28); border-radius: 0.85rem; background: rgba(3, 15, 22, 0.7); min-width: 0; }
+.graph-card-head { display: flex; justify-content: space-between; align-items: center; color: #e7f4ef; font: 0.78rem var(--font-mono-f); text-transform: uppercase; letter-spacing: 0.08em; }
+.graph-card-head b { color: #7fd2b3; font-size: 0.62rem; }
+.graph-metric { display: flex; align-items: baseline; gap: 0.7rem; margin-top: 1rem; }
+.graph-metric strong { color: #ff7543; font: 2rem var(--font-display-f); }
+.graph-metric span { color: #a8c8c0; font-size: 0.75rem; }
+.sparkline { width: 100%; height: 10rem; margin-top: 0.25rem; overflow: visible; }
+.grid-line { stroke: rgba(168, 200, 192, 0.17); stroke-dasharray: 4 5; }
+.temp-line { fill: none; stroke: #ff5c2b; stroke-width: 5; stroke-linecap: round; filter: drop-shadow(0 0 5px rgba(255, 92, 43, 0.45)); }
+.graph-axis { display: flex; justify-content: space-between; color: #75988f; font: 0.63rem var(--font-mono-f); }
+.moisture-rows { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.8rem; }
+.moisture-rows > div { display: grid; grid-template-columns: 3.5rem 1fr 2.2rem; align-items: center; gap: 0.6rem; color: #d5e9e2; font: 0.72rem var(--font-mono-f); }
+.moisture-rows i { height: 0.55rem; display: block; border-radius: 999px; background: rgba(98, 150, 157, 0.25); }
+.moisture-rows i em { display: block; height: 100%; border-radius: inherit; background: #43a7e5; box-shadow: 0 0 0.7rem rgba(67, 167, 229, 0.45); }
+.moisture-rows strong { color: #8ed1f0; font-weight: 500; }
+.threshold-note { display: flex; align-items: center; gap: 0.5rem; margin-top: 1.8rem; color: #eabf3e; font-size: 0.72rem; line-height: 1.4; }
+.threshold-note span { width: 0.55rem; height: 0.55rem; border-radius: 50%; background: #eabf3e; }
+.insight-strip { display: flex; gap: 1rem; align-items: center; margin-top: 1rem; padding: 0.85rem 1rem; border-left: 3px solid #7fd2b3; background: rgba(127, 210, 179, 0.1); color: #cde5dd; font-size: 0.84rem; line-height: 1.45; }
+.insight-strip strong { color: #7fd2b3; font: 0.7rem var(--font-mono-f); text-transform: uppercase; white-space: nowrap; }
+
 @media (max-width: 760px) {
   .content-row,
   .solution-grid,
@@ -1123,9 +1159,12 @@ table.collab td.who {
   }
   .outcome-grid,
   .finding-grid,
-  .reflect-grid {
+  .reflect-grid,
+  .graph-focus-grid {
     grid-template-columns: 1fr;
   }
+  .dashboard-image-wrap img { max-height: 42vh; object-fit: contain; }
+  .insight-strip { align-items: flex-start; flex-direction: column; gap: 0.35rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .tile-stack {
